@@ -32,7 +32,7 @@
  local tabviewer = menu.bg.bg.bg.bg.bg.bg.tabbuttons
  
  local library = {
-    Title = 'what.oklol color="rgb(245, 66, 230)">solutions</font> | <font color="rgb(245, 66, 230)">Pre-Build</font>',
+    Title = 'what.oklol color="rgb(245, 66, 230)">BackZ</font> | <font color="rgb(245, 66, 230)">Pre-build</font>',
     AnimatedText = false,
     keybind = Enum.KeyCode.End,
     Colors = {
@@ -93,35 +93,29 @@
  task.spawn(function()
     local textList = {
         -- Original
-        '', 'b', 'br', 'bro', 'bro🤣', 'bro🤣', 'bro🤣<font color="rgb(245, 66, 230)"></font>',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> ', 'bro🤣<font color="rgb(245, 66, 230)"></font> ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> ', 'bro🤣<font color="rgb(245, 66, 230)"></font> ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> ', 'bro🤣<font color="rgb(245, 66, 230)"></font> ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> ', 'bro🤣<font color="rgb(245, 66, 230)"></font> ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | P ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Pr ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Pro ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Proj ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Proje ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Projec ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Project ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Project D ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Project De ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Project Del ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Project Delt ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Project Delta ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Project Delt ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Project Del ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Project De ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Project De ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Project D ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Project ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Projec ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Proje  ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Proj ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | Pro ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | Pr ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> | P ', 'bro🤣<font color="rgb(245, 66, 230)"></font> | ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> ', 'bro🤣<font color="rgb(245, 66, 230)"></font> ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font>', 'bro🤣<font color="rgb(245, 66, 230)"></font> ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> ', 'bro🤣<font color="rgb(245, 66, 230)"></font> ',
-        'bro🤣<font color="rgb(245, 66, 230)"></font> ', 'bro🤣<font color="rgb(245, 66, 230)"></font> ',
-        'bro🤣=<font color="rgb(245, 66, 230)"></font> ', 'bro🤣', 'bro🤣', 'bro', 'br', 'b',
-        -- Bozos
-        'B', 'BR', 'BRO',
-        'RO', 'O',
-        -- Ak 47
-        'T', 'TF', 'TFZ', 'TFZ?', 'TFZ??',
-        'TFZ??', 'TFZ?', 'TFZ', 'TF', 'T',
+        '', 'D', 'De', 'Dev', 'Dev', 'Dev', 'Dev<font color="rgb(245, 66, 230)"></font>',
+        'Dev<font color="rgb(245, 66, 230)"></font> ', 'Dev<font color="rgb(245, 66, 230)"></font> ',
+        'Dev<font color="rgb(245, 66, 230)"></font> ', 'Dev<font color="rgb(245, 66, 230)"></font> ',
+        'Dev<font color="rgb(245, 66, 230)"></font> ', 'Dev<font color="rgb(245, 66, 230)"></font> ',
+        'Dev<font color="rgb(245, 66, 230)"></font> ', 'Dev<font color="rgb(245, 66, 230)"></font> ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | ', 'Dev<font color="rgb(245, 66, 230)"></font> |  ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul  ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ',
+        'Dev<font color="rgb(245, 66, 230)"></font> | CounterBloxOverhaul ', 'Dev<font color="rgb(245, 66, 230)"></font> | ',
+        'Dev<font color="rgb(245, 66, 230)"></font> ', 'Dev<font color="rgb(245, 66, 230)"></font> ',
+        'Dev<font color="rgb(245, 66, 230)"></font>', 'Dev<font color="rgb(245, 66, 230)"></font> ',
+        'Dev<font color="rgb(245, 66, 230)"></font> ', 'Dev<font color="rgb(245, 66, 230)"></font> ',
+        'Dev<font color="rgb(245, 66, 230)"></font> ', 'Dev<font color="rgb(245, 66, 230)"></font> ',
+        'Dev=<font color="rgb(245, 66, 230)"></font> ', 'Dev', 'Dev', 'bro', 'br', 'b',
         -- Credits
         'M', 'Ma', 'Mad', 'Made', 'Made B', 'Made By', 'Made By:', 'Made By: m', 'Made By: mi', 'Made By: mix',
         'Made By: mixv', 'Made By: mixvp', 'Made By: mixvpn', 'Made By: mixvpn(', 'Made by: mixvpn(:', 'Made By: mixvpn(:',
@@ -135,7 +129,7 @@
                 wait(0.2)
             end 
         else
-            menu.bg.pre.Text = 'BackZ.<font color="rgb(245, 66, 230)">xyz</font> | <font color="rgb(245, 66, 230)">Project delta???</font>'
+            menu.bg.pre.Text = 'BackZ.<font color="rgb(245, 66, 230)">xyz</font> | <font color="rgb(245, 66, 230)">Dev???</font>'
         end
     end
  end) 
